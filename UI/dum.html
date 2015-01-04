@@ -1,0 +1,59 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Mobile Cloud Technologies</title>
+ <link rel="stylesheet" href="cloud.css">
+</head>
+<body>
+ <div id="header">
+<h1 style="color: white">Dashboard</h1>
+</div>
+ 
+ <div id="algo">
+<h2 style="text-align: center">Select Algorithms</h2>
+
+ <div id="algo1">
+  <form name="Bee" action="http://cloudprojenv-w2nzrkbdvm.elasticbeanstalk.com/BeeImpl.jsp">
+  <input type="submit" value="Artificial Bee's Algorithm" style="width: 300px"/>
+   </form>
+ </div>  
+ <div id="algo2">
+  <form name="Ant" action="http://antclouddevenv-pzepk8kcbp.elasticbeanstalk.com/AntImpl.jsp">
+  <input type="submit" value="Ant Colony Algorithm" style="width: 300px" />
+   </form>
+ </div>  
+ <div id="algo3">
+  <form name="pso" action="http://testdevcloudenv-sm9atajpms.elasticbeanstalk.com/PSOImpl.jsp">
+  <input type="submit" value="Particle Swam Algorithm" style="width: 300px"/>
+   </form>
+ </div>  
+ <div id="algo4">
+  <form name="lamur" action="http://cloudtechenv-qdxzjgpiig.elasticbeanstalk.com/LocImpl.jsp">
+  <input type="submit" value="LAMUR Algorithm" style="width: 300px"/>
+   </form>   
+ </div> 
+ <h2 style="text-align: center; margin-top:5px;margin-bottom:5px">Results</h2>
+  <div id="results">
+  <form name="res" action="http://cloudtechenv-qdxzjgpiig.elasticbeanstalk.com/showResponse.jsp">
+  <input type="submit" value="Show Results" style="width: 150px; color: black; margin-right:200px"/>
+   </form> 
+  
+    <form name="bill" action="http://cloudtechenv-qdxzjgpiig.elasticbeanstalk.com/showBilling.jsp">
+  <input type="submit" value="Show Billing" style="width: 150px; color: black; margin-right:200px"/>
+  </form>  
+</div>
+<div id="comparisions">
+  <form name="metrics" action="http://cloudtechenv-qdxzjgpiig.elasticbeanstalk.com/metrics.jsp">
+  <input type="submit" value="metrics" style="width: 150px; color: black; margin-right:200px"/>
+  </form> 
+
+  <form name="comparisions" action="http://cloudtechenv-qdxzjgpiig.elasticbeanstalk.com/comparisions.jsp">
+  <input type="submit" value="Comparisions" style="width: 150px; color: black; margin-right:200px"/>
+  </form> 
+   </div>     
+    
+ </div> 
+</body>
+</html>	

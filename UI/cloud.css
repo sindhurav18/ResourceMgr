@@ -1,0 +1,117 @@
+<style>
+
+#header {
+    line-height:30px;
+    background-color:#pink;
+    height:50px;    
+    float:center;
+    padding:5px; 
+}
+#request {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:50px;    
+    float:center;
+    padding:5px; 
+    margin-bottom: 15px;
+}
+#header {
+    line-height:30px;
+    background-color:green;
+    height:50px;    
+    float:center;
+    padding:5px; 
+    text-align:center;
+    border-style: solid;
+    border-radius: 25px;
+    border-color: green;
+}
+#algo {   
+    color:black;
+    text-align:center;
+    padding:10px;
+    height: 350px;
+    width: 370px;
+    margin-left: 500px;
+    border-style: solid;
+    border-radius: 25px;
+    border-color: green;
+    margin-top: 10px;
+}
+#algo1 {
+    line-height:30px;
+    background-color:#eeeeee;       
+    padding:5px;     
+  top: 10px;
+  right: 0;
+  width: 320px;
+  margin-left: 9px;
+  margin-bottom: 5px;
+}
+#algo2 {
+    line-height:30px;
+    background-color:#eeeeee;       
+    padding:5px;     
+  top: 10px;
+  right: 0;
+  width: 320px;
+   margin-left: 9px;
+   margin-bottom: 5px;
+}
+  
+#algo3 {
+    line-height:30px;
+    background-color:#eeeeee;       
+    padding:5px;     
+  top: 10px;
+  right: 0;
+  width: 320px;
+ margin-left: 9px;
+ margin-bottom: 5px;
+}
+#algo4 {
+   line-height:30px;
+    background-color:#eeeeee;       
+    padding:5px;     
+  top: 10px;
+  right: 0;
+  width: 320px;
+   margin-left: 9px;
+   margin-bottom: 5px;
+
+}
+#results {
+  line-height:30px;
+    background-color:#eeeeee;       
+    padding:5px;     
+  top: 10px;
+  right: 0;
+  width: 150px;
+  margin-left: 0px;
+   margin-left: 9px;
+
+}
+
+#comparisions {
+  line-height:30px;
+    background-color:#eeeeee;       
+    padding:5px;     
+  top: 10px;
+ width: 150px;
+margin-left: 200px;
+margin-top: -58px;
+
+}
+#section {
+    width:350px;
+    float:left;
+    padding:10px; 
+}
+#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px; 
+}
+</style>
